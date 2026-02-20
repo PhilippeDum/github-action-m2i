@@ -10,5 +10,5 @@ jobs:
         run: |
           echo "Push detected"
           echo "Author : ${{ github.actor }}"
-          echo "Author : ${{ github.ref_ }}"
+          echo "Author : ${{ github.ref_name }}"
           echo "Author : ${{ github.sha }}"
