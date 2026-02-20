@@ -1,0 +1,1 @@
+﻿Nouveau projet ``github-action-m2i`` pour test les githubs actions 
