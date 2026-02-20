@@ -1,0 +1,17 @@
+name: "02 - push filtre branche"
+
+on:
+  pull-request:
+    branches:
+      - main
+
+jobs:
+  afficher-info:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Afficher des infos pr"
+        run: |
+          echo "PR : "
+          echo "Author : ${{ github.actor }}"
+          echo "Branch pr : ${{ github.head_ref }}"
+          echo "Cible : ${{ github.base_ref }}"
